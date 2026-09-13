@@ -14,11 +14,11 @@ Estrutura principal
 
 Executando via Docker
 
-Use exatamente o formato abaixo para executar o teste (substitua `<imagem-docker>` pelo nome/tags da sua imagem):
+Use exatamente o formato abaixo para executar o teste:
 
 ```bash
-docker build -t pos-goexpert-desafio5 .
-docker run pos-goexpert-desafio5 --url=http://google.com --requests=1000 --concurrency=10
+docker build -t pos-goexpert-teste-de-carga .
+docker run pos-goexpert-teste-de-carga --url=http://google.com --requests=1000 --concurrency=10
 ```
 
 Testes
