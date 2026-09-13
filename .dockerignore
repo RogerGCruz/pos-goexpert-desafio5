@@ -1,0 +1,8 @@
+test/
+.git
+bin
+vendor
+*.log
+loadtest
+loadtest_from_image
+*.exe
