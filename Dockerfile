@@ -3,9 +3,8 @@ ARG TARGETARCH=amd64
 FROM golang:1.20-alpine AS builder
 WORKDIR /app
 COPY go.mod go.sum ./
-COPY cmd/ ./cmd
 COPY src/ ./src
-RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -o /loadtest ./cmd
+RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -o /loadtest ./src/cmd
 
 FROM alpine:latest
 RUN apk add --no-cache ca-certificates

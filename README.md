@@ -7,7 +7,7 @@ Requisitos
 - Docker (obrigatório, para rodar o container)
 
 Estrutura principal
-- `cmd/main.go` - entrypoint do executável (empacota o pacote `loadtest`)
+- `src/cmd/main.go` - entrypoint do executável (empacota o pacote `loadtest`)
 - `src/main.go` - pacote `loadtest` com a lógica e função testável `Run(args, out)`
 - `test/` - testes BDD (Godog features + steps)
 - `go.mod` - módulo `pos-goexpert-desafio5`
