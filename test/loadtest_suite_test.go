@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"pos-goexpert-desafio5/test/steps"
+	"github.com/RogerGCruz/pos-goexpert-desafio5/test/steps"
 
 	"github.com/cucumber/godog"
 )

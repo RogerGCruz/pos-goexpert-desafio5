@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	src "pos-goexpert-desafio5/src"
+	src "github.com/RogerGCruz/pos-goexpert-desafio5/src"
 
 	"github.com/cucumber/godog"
 )

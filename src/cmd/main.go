@@ -2,7 +2,8 @@ package main
 
 import (
 	"os"
-	loadtest "pos-goexpert-desafio5/src"
+
+	loadtest "github.com/RogerGCruz/pos-goexpert-desafio5/src"
 )
 
 func main() {
